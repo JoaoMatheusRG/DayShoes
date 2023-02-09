@@ -195,6 +195,7 @@ Error generating stack: `+o.message+`
 	color: ${({theme:e})=>e.colors.title};
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 	padding: 0 30px;
 `;G.nav`
 	/* position: fixed;
