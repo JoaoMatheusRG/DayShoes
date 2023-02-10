@@ -117,10 +117,9 @@ Error generating stack: `+o.message+`
 	position: fixed;
 	top: 1vw;
 	left: 1vw;
-	/* bottom: 1vh;
-	right: 1vw; */
-	width: 97vw;
-	height: 95vh;
+	bottom: 1vh;
+	right: 1vw;
+
 	background-color: rgba(255, 255, 255, 0.8);
 	display: flex;
 	/* justify-content: center; */
@@ -128,7 +127,6 @@ Error generating stack: `+o.message+`
 	flex-direction: column;
 
 	background-color: green;
-
 `,Sv=B.div`
     background-color: ${({theme:e})=>e.colors.primary}
     
@@ -150,9 +148,9 @@ Error generating stack: `+o.message+`
 	justify-content: flex-end;
 	padding-right: 2px;
 `,xv=B.button`
-    width: 40px;
-    height: 40px;
-`,Cv=({open:e,setOpen:t,children:n})=>e?Fe(wv,{children:[I(kv,{children:I(xv,{onClick:()=>t(!e),children:"x"})}),I(Sv,{children:n})]}):null,Ev=({Title:e,Image:t,Describe:n})=>{const[r,l]=R.useState(!1);return Fe(vv,{children:[I("img",{src:t,alt:"sandalia",style:{width:"100%",height:"100%"}}),I(qs,{children:e}),I(ur,{children:n}),I(gv,{onClick:()=>l(!r),children:I(yv,{children:"Saiba mais"})}),Fe(Cv,{open:r,setOpen:l,children:[I(bs,{children:I("img",{src:t,alt:"sandalia",style:{width:"100%",height:"100%"}})}),Fe(bs,{children:[I(qs,{children:e}),I(ur,{children:n}),I(ur,{children:"Modelos"}),I(ur,{children:"Tamanhos"}),I(ur,{children:n})]})]})]})},Pv="/DayShoes/assets/sand1-9ec14653.jpg",_v="/DayShoes/assets/sand2-9217d56b.jpg",Nv="/DayShoes/assets/sand3-8c9bc878.jpg",Rv="/DayShoes/assets/sand4-60c1f08e.jpg",zv="/DayShoes/assets/sand5-95340881.jpg",Tv="/DayShoes/assets/sand6-5ceb175e.jpg",$v="/DayShoes/assets/sand7-546ab4f9.jpg",Ov="/DayShoes/assets/sand8-cd99551a.jpg",Lv="/DayShoes/assets/sand9-853d0b48.jpg",Iv="/DayShoes/assets/sand10-19415f6e.jpg",jv="/DayShoes/assets/sand11-1fe4fd8d.jpg",Av="/DayShoes/assets/sand12-b7d8a655.jpg",Dv="/DayShoes/assets/sand13-64375def.jpg",Mv="/DayShoes/assets/sand14-b6160e6d.jpg",Fv="/DayShoes/assets/sand15-542edf67.jpg",Uv="/DayShoes/assets/sand16-8ee8e47a.jpg",Bv="/DayShoes/assets/sand17-c9478cb4.jpg",Vv="/DayShoes/assets/sand18-058759b8.jpg",Wv="/DayShoes/assets/sand19-78760e2a.jpg",Hv="/DayShoes/assets/sand20-0de71239.jpg",Qv="/DayShoes/assets/sand21-a57736e3.jpg",ec=[{title:"sandalia 1",describe:"uma bela sandalia",image:Pv},{title:"sandalia 2",describe:"uma bela sandalia",image:_v},{title:"sandalia 3",describe:"uma bela sandalia",image:Nv},{title:"sandalia 4",describe:"uma bela sandalia",image:Rv},{title:"sandalia 5",describe:"uma bela sandalia",image:zv},{title:"sandalia 6",describe:"uma bela sandalia",image:Tv},{title:"sandalia 7",describe:"uma bela sandalia",image:$v},{title:"sandalia 8",describe:"uma bela sandalia",image:Ov},{title:"sandalia 9",describe:"uma bela sandalia",image:Lv},{title:"sandalia 10",describe:"uma bela sandalia",image:Iv},{title:"sandalia 11",describe:"uma bela sandalia",image:jv},{title:"sandalia 12",describe:"uma bela sandalia",image:Av},{title:"sandalia 13",describe:"uma bela sandalia",image:Dv},{title:"sandalia 14",describe:"uma bela sandalia",image:Mv},{title:"sandalia 15",describe:"uma bela sandalia",image:Fv},{title:"sandalia 16",describe:"uma bela sandalia",image:Uv},{title:"sandalia 17",describe:"uma bela sandalia",image:Bv},{title:"sandalia 18",describe:"uma bela sandalia",image:Vv},{title:"sandalia 19",describe:"uma bela sandalia",image:Wv},{title:"sandalia 20",describe:"uma bela sandalia",image:Hv},{title:"sandalia 21",describe:"uma bela sandalia",image:Qv}],Gv=()=>(console.log(ec),I(hv,{children:I(mv,{children:ec.map(e=>I(Ev,{Title:e.title,Image:e.image,Describe:e.describe}))})})),Yv=B.div`
+	width: 40px;
+	height: 40px;
+`,Cv=({open:e,setOpen:t,children:n})=>e?Fe(wv,{children:[I(kv,{children:I(xv,{onClick:()=>t(!e),children:"x"})}),I(Sv,{children:n})]}):null,Ev=({Title:e,Image:t,Describe:n})=>{const[r,l]=R.useState(!1);return Fe(vv,{children:[I("img",{src:t,alt:"sandalia",style:{width:"100%",height:"100%"}}),I(qs,{children:e}),I(ur,{children:n}),I(gv,{onClick:()=>l(!r),children:I(yv,{children:"Saiba mais"})}),Fe(Cv,{open:r,setOpen:l,children:[I(bs,{children:I("img",{src:t,alt:"sandalia",style:{width:"100%",height:"100%"}})}),Fe(bs,{children:[I(qs,{children:e}),I(ur,{children:n}),I(ur,{children:"Modelos"}),I(ur,{children:"Tamanhos"}),I(ur,{children:n})]})]})]})},Pv="/DayShoes/assets/sand1-9ec14653.jpg",_v="/DayShoes/assets/sand2-9217d56b.jpg",Nv="/DayShoes/assets/sand3-8c9bc878.jpg",Rv="/DayShoes/assets/sand4-60c1f08e.jpg",zv="/DayShoes/assets/sand5-95340881.jpg",Tv="/DayShoes/assets/sand6-5ceb175e.jpg",$v="/DayShoes/assets/sand7-546ab4f9.jpg",Ov="/DayShoes/assets/sand8-cd99551a.jpg",Lv="/DayShoes/assets/sand9-853d0b48.jpg",Iv="/DayShoes/assets/sand10-19415f6e.jpg",jv="/DayShoes/assets/sand11-1fe4fd8d.jpg",Av="/DayShoes/assets/sand12-b7d8a655.jpg",Dv="/DayShoes/assets/sand13-64375def.jpg",Mv="/DayShoes/assets/sand14-b6160e6d.jpg",Fv="/DayShoes/assets/sand15-542edf67.jpg",Uv="/DayShoes/assets/sand16-8ee8e47a.jpg",Bv="/DayShoes/assets/sand17-c9478cb4.jpg",Vv="/DayShoes/assets/sand18-058759b8.jpg",Wv="/DayShoes/assets/sand19-78760e2a.jpg",Hv="/DayShoes/assets/sand20-0de71239.jpg",Qv="/DayShoes/assets/sand21-a57736e3.jpg",ec=[{title:"Aqui entra o modelo",describe:"R$ 19,99",image:Pv},{title:"sandalia 2",describe:"uma bela sandalia",image:_v},{title:"sandalia 3",describe:"uma bela sandalia",image:Nv},{title:"sandalia 4",describe:"uma bela sandalia",image:Rv},{title:"sandalia 5",describe:"uma bela sandalia",image:zv},{title:"sandalia 6",describe:"uma bela sandalia",image:Tv},{title:"sandalia 7",describe:"uma bela sandalia",image:$v},{title:"sandalia 8",describe:"uma bela sandalia",image:Ov},{title:"sandalia 9",describe:"uma bela sandalia",image:Lv},{title:"sandalia 10",describe:"uma bela sandalia",image:Iv},{title:"sandalia 11",describe:"uma bela sandalia",image:jv},{title:"sandalia 12",describe:"uma bela sandalia",image:Av},{title:"sandalia 13",describe:"uma bela sandalia",image:Dv},{title:"sandalia 14",describe:"uma bela sandalia",image:Mv},{title:"sandalia 15",describe:"uma bela sandalia",image:Fv},{title:"sandalia 16",describe:"uma bela sandalia",image:Uv},{title:"sandalia 17",describe:"uma bela sandalia",image:Bv},{title:"sandalia 18",describe:"uma bela sandalia",image:Vv},{title:"sandalia 19",describe:"uma bela sandalia",image:Wv},{title:"sandalia 20",describe:"uma bela sandalia",image:Hv},{title:"sandalia 21",describe:"uma bela sandalia",image:Qv}],Gv=()=>(console.log(ec),I(hv,{children:I(mv,{children:ec.map(e=>I(Ev,{Title:e.title,Image:e.image,Describe:e.describe}))})})),Yv=B.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
