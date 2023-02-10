@@ -109,10 +109,11 @@ Error generating stack: `+o.message+`
 `,yv=B.span`
 	color: ${({theme:e})=>e.colors.title};
 `,bs=B.div`
-	width: 20vw;
-	/* height: 40vh; */
-	background-color: red;
+	width: 24%;
+	height: 100%;
+	/* background-color: red; */
 	padding: 10px;
+	
 `,wv=B.div`
 	position: fixed;
 	top: 1vw;
@@ -126,22 +127,18 @@ Error generating stack: `+o.message+`
 	align-items: center;
 	flex-direction: column;
 
-	background-color: green;
 `,Sv=B.div`
-    background-color: ${({theme:e})=>e.colors.primary}
-    
-    width: 90%;
-    /* height: 90%; */
+	/* background-color: ${({theme:e})=>e.colors.primary}; */
 
-    display: flex;
-    flex-direction: row;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-around;
 
-
-	/* @media query and (max-width: 500px){
+	@media query and (max-width: 500px){
 		flex-direction: column;
-	} */
-	
+	}
 `,kv=B.div`
 	width: 100%;
 	display: flex;
