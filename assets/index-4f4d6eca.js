@@ -185,7 +185,6 @@ Error generating stack: `+o.message+`
 	${({active:e})=>e&&Ao`
 			color: #db146f;
 			border: 1px solid #db146f;
-			padding: 8px;
 		`}
 `,_v=D.span``,Nv=({items:e,setValue:t})=>{let n=[];function r(u){let s=[];e.map((a,p)=>{s.push(p==u)}),i(s),t(u)}function l(){n=[],e.map((u,s)=>{n.push(s==0)})}l(),N.useEffect(()=>{l(),r(0)},[]);const[o,i]=N.useState(n);return e.length===0?null:R(Ev,{children:e.map((u,s)=>R(Pv,{active:o[s],onClick:()=>r(s),children:R(_v,{children:u})},u))})},Rv=D.div`
 	display: flex;
@@ -202,7 +201,6 @@ Error generating stack: `+o.message+`
 	${({active:e})=>e&&Ao`
 			color: #db146f;
 			border: 1px solid #db146f;
-			padding: 8px;
 		`}
 `,Tv=D.span``,$v=D.div`
 	background-color: white;
