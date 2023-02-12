@@ -82,7 +82,7 @@ Error generating stack: `+o.message+`
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
-	/* background: red; */
+	background: red;
 `,wv=A.div`
 	width: 250px;
 	margin: 10px;
@@ -90,7 +90,7 @@ Error generating stack: `+o.message+`
 	flex-direction: column;
 	align-items: center;
 	background-color: #ff934f;
-	// padding: 5px;
+	padding: 5px;
 	border-radius: 5px;
 `,ec=A.span`
 	color: ${({theme:e})=>e.colors.text};
