@@ -89,6 +89,9 @@ Error generating stack: `+o.message+`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #ff934f;
+	// padding: 5px;
+	border-radius: 5px;
 `,ec=A.span`
 	color: ${({theme:e})=>e.colors.text};
 	font-size: 24px;
@@ -108,7 +111,6 @@ Error generating stack: `+o.message+`
 	}
 `,nc=A.span`
 	color: ${({theme:e})=>e.colors.title};
-
 `,Sv=A.div`
 	width: 35%;
 	/* background-color: green; */
@@ -118,7 +120,6 @@ Error generating stack: `+o.message+`
 
 	@media screen and (max-width: 500px) {
 		width: 80%;
-		
 	}
 `,kv=A.div`
 	width: 50%;
@@ -130,7 +131,6 @@ Error generating stack: `+o.message+`
 
 	@media screen and (max-width: 500px) {
 		width: 100%;
-		
 	}
 `,rc=A.span`
 	font-size: 20px;
@@ -233,7 +233,7 @@ Error generating stack: `+o.message+`
 	margin: 3px 0;
 	margin-right: 10px;
 	opacity: 0.4;
-`,jv=({items:e,setValue:t,colorIndex:n})=>{const[r,l]=R.useState([]);let o=[],i=[34,35,36,37,38,39,40];function u(s){let d=[];s>18?i.map((h,m)=>{d.push(h==s)}):i.map((h,m)=>{d.push(m==s)}),d.map((h,m)=>{h==!0&&t(i[m])}),l(d)}function a(){o=[],i.map((s,d)=>{o.push(s==e[n][0])}),l(o)}return R.useEffect(()=>{a(),u(e[n][0])},[n]),N(Ov,{children:i.map((s,d)=>e[n].indexOf(s)===-1?N(Av,{children:ge("span",{children:[s," "]})}):N(Lv,{active:r[d],onClick:()=>u(d),children:N(Iv,{children:s})},d))})},Mv=({key:e,Title:t,Images:n,Description:r,Colors:l,Sizes:o,Price:i})=>{const[u,a]=R.useState(!1),[s,d]=R.useState(0),[h,m]=R.useState(0);function S(){let w=`Olá Day, gostaria de encomendar ${t} da cor ${l[s]} e tamanho ${h}`,g=`https://web.whatsapp.com/send?phone=+5521979876937&text=${encodeURI(w)}&app_absent=0`;window.open(g)}return R.useEffect(()=>{console.log(l[s]),console.log(h),console.log(t)},[s,h]),ge(wv,{children:[N("img",{src:n[0],alt:"sandalia",style:{width:"100%",height:"100%",borderRadius:"10px"}}),N(ec,{children:t}),N(pi,{children:i}),N(tc,{onClick:()=>a(!u),children:N(nc,{children:"Saiba mais"})}),N(Nv,{open:u,setOpen:a,children:ge(xv,{children:[N(Sv,{children:N("img",{src:n[s],alt:"sandalia",style:{width:"100%",height:"100%",borderRadius:"8px"}})}),ge(kv,{children:[N(ec,{children:t}),ge(hi,{children:[N(pi,{children:"Cores:"}),N(Tv,{items:l,setValue:d})]}),ge(hi,{children:[N(pi,{children:"Tamanhos:"}),N(jv,{items:o,setValue:m,colorIndex:s})]}),ge(hi,{children:[N(rc,{children:"Valor: "}),N(rc,{children:i})]}),N(tc,{onClick:()=>S(),children:N(nc,{children:"Enviar mensagem"})})]})]})})]},e)},Dv="/DayShoes/assets/sand1-9ec14653.jpg",Fv="/DayShoes/assets/sand2-9217d56b.jpg",Uv="/DayShoes/assets/sand3-8c9bc878.jpg",Bv="/DayShoes/assets/sand4-60c1f08e.jpg",Vv="/DayShoes/assets/sand5-95340881.jpg",Wv="/DayShoes/assets/sand6-5ceb175e.jpg",Hv="/DayShoes/assets/sand13-64375def.jpg",Qv=[{title:"Aqui entra o modelo",description:"uma bela sandalia",images:[Dv],colors:["rosa"],sizes:[[39]],price:"$19,99"},{title:"sandalia 2",description:"uma belissima sandalia",images:[Fv,Wv,Hv],colors:["lilas","preto","prata"],sizes:[[36],[36],[34,35,39]],price:"$19,99"},{title:"sandalia 3",description:"uma bela sandalia",images:[Uv],colors:["rosa"],sizes:[[37]],price:"$19,99"},{title:"sandalia 4",description:"uma bela sandalia",images:[Bv],colors:["preto"],sizes:[[36]],price:"$19,99"},{title:"sandalia 5",description:"uma bela sandalia",images:[Vv],colors:["limão"],sizes:[[36,38]],price:"$19,99"}],Gv=()=>N(gv,{children:N(yv,{children:Qv.map((e,t)=>N(Mv,{Title:e.title,Images:e.images,Description:e.description,Colors:e.colors,Sizes:e.sizes,Price:e.price},`${e.title}${t}`))})}),Yv=A.div`
+`,jv=({items:e,setValue:t,colorIndex:n})=>{const[r,l]=R.useState([]);let o=[],i=[34,35,36,37,38,39,40];function u(s){let d=[];s>18?i.map((h,m)=>{d.push(h==s)}):i.map((h,m)=>{d.push(m==s)}),d.map((h,m)=>{h==!0&&t(i[m])}),l(d)}function a(){o=[],i.map((s,d)=>{o.push(s==e[n][0])}),l(o)}return R.useEffect(()=>{a(),u(e[n][0])},[n]),N(Ov,{children:i.map((s,d)=>e[n].indexOf(s)===-1?N(Av,{children:ge("span",{children:[s," "]})}):N(Lv,{active:r[d],onClick:()=>u(d),children:N(Iv,{children:s})},d))})},Mv=({key:e,Title:t,Images:n,Description:r,Colors:l,Sizes:o,Price:i})=>{const[u,a]=R.useState(!1),[s,d]=R.useState(0),[h,m]=R.useState(0);function S(){let w=`Olá Day, gostaria de encomendar ${t} da cor ${l[s]} e tamanho ${h}`,g=`https://whatsapp.com/send?phone=+5521979876937&text=${encodeURI(w)}&app_absent=0`;window.open(g)}return R.useEffect(()=>{console.log(l[s]),console.log(h),console.log(t)},[s,h]),ge(wv,{children:[N("img",{src:n[0],alt:"sandalia",style:{width:"100%",height:"100%",borderRadius:"10px"}}),N(ec,{children:t}),N(pi,{children:i}),N(tc,{onClick:()=>a(!u),children:N(nc,{children:"Saiba mais"})}),N(Nv,{open:u,setOpen:a,children:ge(xv,{children:[N(Sv,{children:N("img",{src:n[s],alt:"sandalia",style:{width:"100%",height:"100%",borderRadius:"8px"}})}),ge(kv,{children:[N(ec,{children:t}),ge(hi,{children:[N(pi,{children:"Cores:"}),N(Tv,{items:l,setValue:d})]}),ge(hi,{children:[N(pi,{children:"Tamanhos:"}),N(jv,{items:o,setValue:m,colorIndex:s})]}),ge(hi,{children:[N(rc,{children:"Valor: "}),N(rc,{children:i})]}),N(tc,{onClick:()=>S(),children:N(nc,{children:"Enviar mensagem"})})]})]})})]},e)},Dv="/DayShoes/assets/sand1-9ec14653.jpg",Fv="/DayShoes/assets/sand2-9217d56b.jpg",Uv="/DayShoes/assets/sand3-8c9bc878.jpg",Bv="/DayShoes/assets/sand4-60c1f08e.jpg",Vv="/DayShoes/assets/sand5-95340881.jpg",Wv="/DayShoes/assets/sand6-5ceb175e.jpg",Hv="/DayShoes/assets/sand13-64375def.jpg",Qv=[{title:"Aqui entra o modelo",description:"uma bela sandalia",images:[Dv],colors:["rosa"],sizes:[[39]],price:"$19,99"},{title:"sandalia 2",description:"uma belissima sandalia",images:[Fv,Wv,Hv],colors:["lilas","preto","prata"],sizes:[[36],[36],[34,35,39]],price:"$19,99"},{title:"sandalia 3",description:"uma bela sandalia",images:[Uv],colors:["rosa"],sizes:[[37]],price:"$19,99"},{title:"sandalia 4",description:"uma bela sandalia",images:[Bv],colors:["preto"],sizes:[[36]],price:"$19,99"},{title:"sandalia 5",description:"uma bela sandalia",images:[Vv],colors:["limão"],sizes:[[36,38]],price:"$19,99"}],Gv=()=>N(gv,{children:N(yv,{children:Qv.map((e,t)=>N(Mv,{Title:e.title,Images:e.images,Description:e.description,Colors:e.colors,Sizes:e.sizes,Price:e.price},`${e.title}${t}`))})}),Yv=A.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
