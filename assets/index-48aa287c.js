@@ -90,8 +90,8 @@ Error generating stack: `+o.message+`
 	flex-direction: column;
 	align-items: center;
 	background-color: #ff934f;
-	padding: 5px;
-	border-radius: 5px;
+	padding: 10px;
+	border-radius: 10px;
 `,ec=A.span`
 	color: ${({theme:e})=>e.colors.text};
 	font-size: 24px;
