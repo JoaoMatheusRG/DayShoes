@@ -91,11 +91,11 @@ Error generating stack: `+o.message+`
 	flex-direction: column;
 	align-items: center;
 	background-color: white;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 15px;
 `,ec=A.span`
 	color: ${({theme:e})=>e.colors.text};
-	font-size: 24px;
+	font-size: 20px;
 `,pi=A.span`
 	color: ${({theme:e})=>e.colors.text};
 `,tc=A.button`
@@ -387,7 +387,7 @@ Error generating stack: `+o.message+`
 	}
 `,sg=()=>ge(ug,{children:["DayShoes",ge(ag,{children:[N(gi,{children:N(yi,{to:"/",children:"Home"})}),N(sc,{}),N(gi,{children:N(yi,{to:"/sobre",children:"Sobre"})}),N(sc,{}),N(gi,{children:N(yi,{to:"/contatos",children:"Contato"})})]})]}),cg=A.div`
 	height: 30px;
-	background-color: #0d0106;
+	background-color: #ffb485;
 	color: ${({theme:e})=>e.colors.title};
 	display: flex;
 	justify-content: center;
