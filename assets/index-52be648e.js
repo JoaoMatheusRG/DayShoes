@@ -91,7 +91,7 @@ Error generating stack: `+o.message+`
 	flex-direction: column;
 	align-items: center;
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	border-radius: 15px;
 `,ec=A.span`
 	color: ${({theme:e})=>e.colors.text};
@@ -340,8 +340,10 @@ Error generating stack: `+o.message+`
 	align-items: center;
 	justify-content: space-around;
 	padding: 0 30px;
+
 	position: sticky;
 	top: 0;
+	
 	@media screen and (max-width: 500px) {
 		justify-content: space-between;
 	}
