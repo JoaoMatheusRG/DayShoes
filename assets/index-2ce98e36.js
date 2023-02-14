@@ -83,7 +83,7 @@ Error generating stack: `+o.message+`
 	align-items: center;
 	justify-content: space-around;
 	/* background: red; */
-	background-color: #ffb485;
+	background-color: #eee;
 `,wv=A.div`
 	width: 250px;
 	margin: 10px;
@@ -91,8 +91,8 @@ Error generating stack: `+o.message+`
 	flex-direction: column;
 	align-items: center;
 	background-color: white;
-	padding: 10px;
-	border-radius: 10px;
+	padding: 15px;
+	border-radius: 15px;
 `,ec=A.span`
 	color: ${({theme:e})=>e.colors.text};
 	font-size: 24px;
@@ -334,7 +334,7 @@ Error generating stack: `+o.message+`
     }
 `,ug=A.div`
 	height: 60px;
-	background-color: #0d0106;
+	background-color: #ffb485;
 	color: ${({theme:e})=>e.colors.title};
 	display: flex;
 	align-items: center;
