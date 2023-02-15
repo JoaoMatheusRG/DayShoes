@@ -349,7 +349,7 @@ Error generating stack: `+o.message+`
 	border-radius: 5px;
 	cursor: pointer;
 	margin-top: 20px;
-`,ig=()=>ge(eg,{children:[_(tg,{children:"Contato"}),_(ng,{children:"Caso você tenha alguma dúvida, sugestão ou queria fazer um elogio, não hesite em nos contatar. Preencha o formulário abaixo e em breve retornaremos sua mensagem."}),ge(rg,{children:[_(vi,{children:_(ac,{type:"text",placeholder:"Nome"})}),_(vi,{children:_(ac,{type:"email",placeholder:"Email"})}),_(vi,{children:_(lg,{placeholder:"Mensagem"})}),_(og,{type:"submit",children:"Enviar"})]})]}),ug={title:"light",colors:{primary:"#DB146F",secondary:"#957FEF",background:"#f9f9f9",title:"#f9f9f9",text:"#333"}},ag=vv`
+`,ig=()=>ge(eg,{children:[_(tg,{children:"Contato"}),_(ng,{children:"Caso você tenha alguma dúvida, sugestão ou queria fazer um elogio, não hesite em nos contatar. Preencha o formulário abaixo e em breve retornaremos sua mensagem."}),ge(rg,{children:[_(vi,{children:_(ac,{name:"name",type:"text",placeholder:"Nome"})}),_(vi,{children:_(ac,{name:"email",type:"email",placeholder:"Email"})}),_(vi,{children:_(lg,{name:"message",placeholder:"Mensagem"})}),_(og,{type:"submit",children:"Enviar"})]})]}),ug={title:"light",colors:{primary:"#DB146F",secondary:"#957FEF",background:"#f9f9f9",title:"#f9f9f9",text:"#333"}},ag=vv`
     *{
         margin: 0;
         padding: 0;
