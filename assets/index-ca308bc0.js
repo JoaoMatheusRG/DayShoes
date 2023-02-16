@@ -85,7 +85,7 @@ Error generating stack: `+o.message+`
 	/* background: red; */
 	background-color: #eee;
 `,wv=A.div`
-	width: 85%;
+	width: 20%;
 	margin: 10px;
 	display: flex;
 	flex-direction: column;
@@ -93,6 +93,10 @@ Error generating stack: `+o.message+`
 	background-color: white;
 	padding: 15px 0;
 	border-radius: 15px;
+
+	@media screen and (max-width: 500px) {
+		width: 85%;
+	}
 `,ec=A.span`
 	color: ${({theme:e})=>e.colors.text};
 	font-size: 20px;
@@ -115,12 +119,11 @@ Error generating stack: `+o.message+`
 	}
 `,tc=A.span`
 	// color: ${({theme:e})=>e.colors.title};
-	color: 	#FFFAFA;
+	color: #fffafa;
 	font-weight: bold;
 	font-size: 15px;
 `,nc=A.div`
 	width: 35%;
-	/* background-color: green; */
 	padding: 10px;
 	display: flex;
 	flex-direction: row;
@@ -224,7 +227,7 @@ Error generating stack: `+o.message+`
 	background-color: #fff;
 	padding: 1px 5px;
 
-`,Rv=({open:e,setOpen:t,children:n})=>e?_(Pv,{children:ge(_v,{children:[_(Nv,{children:_(zv,{onClick:()=>t(!e),children:"X"})}),n]})}):null,$v=A.div`
+`,Rv=({open:e,setOpen:t,children:n})=>e?_(Pv,{children:ge(_v,{children:[_(Nv,{children:_(zv,{onClick:()=>t(!e),children:"x"})}),n]})}):null,$v=A.div`
 	display: flex;
 	flex-wrap: wrap;
 `,Tv=A.button`
